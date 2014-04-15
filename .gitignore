@@ -1,0 +1,12 @@
+*.DS_Store
+.project
+.classpath
+target/
+.settings/
+.factorypath
+.idea/
+*~
+book/book.pdf
+book/book.xml
+book/book.html
+*.war
