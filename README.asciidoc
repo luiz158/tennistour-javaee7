@@ -1,0 +1,24 @@
+= tennistour-javaee7
+
+Tennis tournament application to illustrate Java EE 7 API :
+
+* Batch Applications 1.0
+* JPA API 2.1 
+
+
+== How to test it
+
+* git clone https://github.com/mgreau/tennistour-javaee7.git 
+
+* start your widlfy instance
+
+* from the root project :
+
+  mvn clean package -Dmaven.test.skip=true
+
+  cd tennistour-batch
+
+  mvn wildfly:deploy
+
+* Access to http://localhost:8080/tennistour-batch
+** you can load some tournaments CSV file and then see the list of players and tournaments added
